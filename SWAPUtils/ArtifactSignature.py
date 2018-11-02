@@ -1,0 +1,1 @@
+WIN_PREFETCH_SIGNATURE = (b'\x53', b'\x43', b'\x43', b'\x41')
