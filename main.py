@@ -31,5 +31,5 @@ class Main:
                 _parser = WinPrefetchParser()
                 _result = _parser.result(self.__args.get_file_path())
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     Main()
