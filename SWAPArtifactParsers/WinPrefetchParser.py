@@ -62,6 +62,8 @@ class WinPrefetchParser:
         self._file_bin = _fd.read()
 
         # file header check - compressed prefetch
+        _file_header = '0x' + '0x'.join(list(a.hex() for a in struct.unpack('4c', self._file_bin[0x4:0x4 + 4])))
+
 
         # get prefetch version
         _version = hex(struct.unpack('i', self._file_bin[0x0:0x0+4])[0])
@@ -107,4 +109,3 @@ class WinPrefetchParser:
             self._parse_by_win_10()
 
         return self._win_prefetch_info
-

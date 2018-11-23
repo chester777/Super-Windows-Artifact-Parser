@@ -1,6 +1,8 @@
 .gitignore
 .git/
 .idea/
+.idea/vcs.xml
 venv/
 temp/
+sample_artifacts/
 *.pyc
