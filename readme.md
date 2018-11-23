@@ -5,9 +5,9 @@ Windows Artifact를 하나씩 공부하면서 만들고있어 시간이 좀 오�
 
 코드리뷰 후 이슈 생성은 언제나 환영입니다.
 
-## done artifact lists
+## done lists
 
-## in progress artifact lists
+## in progress lists
 * Prefetch
 * Result Output
   * SQLite
